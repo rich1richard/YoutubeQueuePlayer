@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ToKIpfYGeEKRLsyci8tatg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="youtube.com/playlist" DesignTimeRectangle="969, 927, 36, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;ytd-app&amp;gt;div&amp;gt;ytd-page-manager&amp;gt;ytd-browse&amp;gt;ytd-two-column-browse-results-renderer&amp;gt;div&amp;gt;ytd-section-list-renderer&amp;gt;div&amp;gt;ytd-item-section-renderer&amp;gt;div&amp;gt;ytd-playlist-video-list-renderer&amp;gt;div&amp;gt;ytd-continuation-item-renderer&amp;gt;tp-yt-paper-spinner&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='7' isleaf='1' parentid='spinnerContainer' tag='DIV' /&gt;" Guid="2aff4fd9-b6dd-4590-b052-8eb7ffd23a17" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Don Williams - All songs by Don Williams - YouTube' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="38538d721717198c7d951fb82b8ea885.png" xmlns="">09JCNz3kIZ0G5IL1JXQ_LTw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

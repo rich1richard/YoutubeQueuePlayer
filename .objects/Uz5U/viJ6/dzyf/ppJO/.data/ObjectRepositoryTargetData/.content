@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="R_zbrrSSBkOahhJK062vww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="discogs.com/fr/search/advanced" CVScreenId="51317614-0567-4751-83d5-262570baf058" CvElementArea="856, 556, 97, 33" CvTextArea="891, 566, 46, 13" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="858, 558, 93, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='advanced_search_form_submit' tag='BUTTON' /&gt;" Guid="9708576f-46f2-4fe1-92b2-84f6bfbce3c4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recherche avancée' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="26808d9afd6860fe1ad97f7d1281d6a4.png" xmlns="">0ryFf0H6ysEyP_AC8hd_b9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

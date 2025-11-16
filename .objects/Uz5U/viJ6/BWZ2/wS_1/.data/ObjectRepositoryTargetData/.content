@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="enRdjxIS4EyZfKvcVQSHBg" Reference="HMUtgIha9kaHxUF5PY2GQQ/wS_1nsHltkiY48XZ4L3drA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chosic.com/playlist-generator" CVScreenId="a1b154b1-7f02-401b-9d3b-c5f6ffd238a6" DesignTimeRectangle="474, 571, 96, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='show-more' parentid='result' tag='A' /&gt;" Guid="e24df0d2-71d6-432e-865a-7b3d4033e22c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='* - Chosic' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a1b154b1-7f02-401b-9d3b-c5f6ffd238a6" CvElementArea="566, 683, 19, 24" CvType="ArrowButton" DesignTimeRectangle="570, 571, 11, 18" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;article&amp;gt;div&amp;gt;span&amp;gt;i' isleaf='1' parentid='result' tag='I' /&gt;" Guid="9d93d545-5651-4fe6-9951-a4f8009f07f3" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a21b8656ccef2cb1a5ccb696b5862e25.png" xmlns="">0c3EoengcfkCt6NvEahUkyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

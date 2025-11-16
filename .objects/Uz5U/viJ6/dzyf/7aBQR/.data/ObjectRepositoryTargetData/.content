@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6GLjBW_fDUSnDlvUtLMuqA" Reference="HMUtgIha9kaHxUF5PY2GQQ/7aBQRtTqa0mCSc03JFdoNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="discogs.com/fr/search/advanced" CVScreenId="f945ec83-0981-4ad8-9d10-36085a9a861e" CvElementArea="473, 371, 482, 32" CvType="InputBox" DesignTimeRectangle="167, 330, 389, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='title' tag='INPUT' type='text' /&gt;" Guid="30e82645-c6c0-43c5-90ca-ed58fbbc3ae1" ScopeSelectorArgument="&lt;html app='msedge.exe' url='https://www.discogs.com/fr/search/advanced' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f945ec83-0981-4ad8-9d10-36085a9a861e" CvTextArea="473, 352, 62, 13" CvTextArgument="Titre/Nom" CvType="Text" DesignTimeRectangle="165, 310, 63, 13" ElementType="Text" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='advanced_search_label' tag='LABEL' type='' aaname='Titre/Nom' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Titre/Nom' /&gt;" Guid="7981bbb8-b7e4-485a-a920-d5fd3eb3951d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="919eebaf25ae12e21df04480d5086b42.png" xmlns="">0Nz-nXBeQw0OXv_LvFSq8Sw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

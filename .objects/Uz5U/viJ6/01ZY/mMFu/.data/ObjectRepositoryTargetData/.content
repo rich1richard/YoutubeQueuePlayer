@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SHQqPvOrq0qcbMg7E0EXKQ" Reference="HMUtgIha9kaHxUF5PY2GQQ/mMFui9Wkbkm2G4jjEqisyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="youtube.com/results" CVScreenId="59d5a30d-fa38-466a-a749-ba66ade3c235" DesignTimeRectangle="1666, 276, 237, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='option' tag='TP-YT-PAPER-ITEM' /&gt;" Guid="740c57c5-ef38-4483-979f-cb62c529fa9f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*YouTube' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1666, 268, 237, 88" FuzzySelectorArgument="&lt;webctrl id='items' tag='TP-YT-PAPER-LISTBOX' type='' class='style-scope ytd-menu-popup-renderer' aaname=' ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ajouter à la file d&amp;apos;attente&amp;#xA;Partager' /&gt;" Guid="ab6bb47e-e470-4eb7-a481-3e9b98a975eb" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ff54af7bf4e5d8ed310cbde8db208c77.png" xmlns="">0OKxmj5zpSEyZCm6WURRWlA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

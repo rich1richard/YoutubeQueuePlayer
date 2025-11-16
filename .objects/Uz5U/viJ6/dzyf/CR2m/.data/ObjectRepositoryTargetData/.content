@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pCMVI0kjQEGwSX6s2gw45Q" Reference="HMUtgIha9kaHxUF5PY2GQQ/CR2mPM8o_ku3_J_MAIB1bA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="discogs.com/fr/search" DesignTimeRectangle="542, 379, 150, 205" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='listitem' tag='LI' parentid='search_results' idx='1' /&gt;" Guid="7a575d06-6edf-414e-8806-be9babd48489" ScopeSelectorArgument="&lt;html app='msedge.exe' url='https://www.discogs.com/fr/search/?type=all&amp;amp;title=*&amp;amp;artist=*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6047f7699cdf999979fc701af3a6d429.png" xmlns="">0ObSm4aqYmkqEi2RhnJ8V5Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,6 @@
+{
+  "Name": "YoutubeQueuePlayer",
+  "ProjectType": "Process",
+  "Description": "Build, save, and play songs' queues of your liking from various sources on Youtube.",
+  "MainFile": "Main.xaml"
+}

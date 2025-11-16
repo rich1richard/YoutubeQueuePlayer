@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u2UsavkUpU6A0_Q2NpT4dA" Reference="HMUtgIha9kaHxUF5PY2GQQ/pka9-jnl90uV1OavXMbTEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chosic.com/playlist-generator" CVScreenId="0f8e8bc0-2ba1-46af-add5-bca0352fc609" CvElementArea="1267, 380, 297, 54" CvTextArea="1375, 398, 81, 17" CvTextArgument="Generate" CvType="Button" DesignTimeRectangle="1269, 382, 294, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='generate-button' tag='BUTTON' /&gt;" Guid="b32e588c-12be-43f5-aa58-6fecab76741b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='* - Chosic' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="02d06c5266ccc563cdc0c238d000c640.png" xmlns="">0PDCiMA0Eok2zPaO8iCS96w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

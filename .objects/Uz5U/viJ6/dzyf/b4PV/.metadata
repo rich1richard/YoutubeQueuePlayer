@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Artist",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "b4PVjAOlRkK3iagMWJuzEA",
+  "Reference": "HMUtgIha9kaHxUF5PY2GQQ/b4PVjAOlRkK3iagMWJuzEA",
+  "ParentRef": "HMUtgIha9kaHxUF5PY2GQQ/dzyfHNQeJEKOsKTKnSIPOA",
+  "Created": "2025-10-15T13:16:23.9373948Z",
+  "Updated": "2025-10-15T13:38:31.2578528Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

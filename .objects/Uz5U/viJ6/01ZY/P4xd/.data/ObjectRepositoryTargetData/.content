@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0TrdqeARVEuEYoEyqYLPpA" Reference="HMUtgIha9kaHxUF5PY2GQQ/P4xd4xX_KEOGyL8TxNqYaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="youtube.com/results" CVScreenId="f6a821c5-aaf3-44dd-b0f3-53edf743d2a8" CvElementArea="641, 133, 593, 42" CvType="InputBox" DesignTimeRectangle="660, 143, 543, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='ytSearchboxComponentInput yt-searchbox-input title' placeholder='Rechercher' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="91aae696-9cde-4b33-b75c-2d49c2905fc6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*YouTube' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f6a821c5-aaf3-44dd-b0f3-53edf743d2a8" CvElementArea="1230, 133, 65, 43" CvType="Button" DesignTimeRectangle="1231, 135, 64, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='Search' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Search' tag='BUTTON' type='' class='ytSearchboxComponentSearchButton ytSearchboxComponentSearchButtonDark' aaname='Rechercher' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="800a0cbb-58a4-4650-b455-f5313f53d695" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8fe2872d6c70d9bffebf9f69cc7ca2ff.png" xmlns="">0m0xJv8exW0CbnqSZNg91Dg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

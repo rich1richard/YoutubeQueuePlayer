@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0QyBl6vrrkyyGJWY7sThlg" Reference="HMUtgIha9kaHxUF5PY2GQQ/Qy0v_Zt3HUOo2ejfr-rxCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chosic.com/playlist-generator" CVScreenId="59de9426-69c2-4691-88b1-91b7dbbeb9ef" CvElementArea="361, 379, 598, 54" CvType="InputBox" DesignTimeRectangle="363, 382, 596, 50" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='search-word' tag='INPUT' /&gt;" Guid="b481914d-f95e-4742-9f37-23022ea68bb4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='* - Chosic' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="7, 186, 1912, 332" FuzzySelectorArgument="&lt;webctrl tag='ARTICLE' type='' class='main-top' aaname=' &amp;#x9; &amp;#x9; &amp;#x9;&amp;#x9; &amp;#x9; &amp;#x9; &amp;#x9;  &amp;#x9; &amp;#x9; &amp;#x9; &amp;#x9; &amp;#x9; ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f2b52521-a1fa-4dc0-bf73-48202edfa0a9" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="08b93102c105d1d654908aae013ee4fd.png" xmlns="">0fUeiet2SjE-DkFL6Aqu_1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

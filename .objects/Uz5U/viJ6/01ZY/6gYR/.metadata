@@ -1,0 +1,17 @@
+﻿{
+  "Name": "PauseQueue",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "6gYRaaCn1Eq4tnKg28pFLg",
+  "Reference": "HMUtgIha9kaHxUF5PY2GQQ/6gYRaaCn1Eq4tnKg28pFLg",
+  "ParentRef": "HMUtgIha9kaHxUF5PY2GQQ/01ZYufWC00iWJhfiuNqFbw",
+  "Created": "2025-10-14T09:16:55.1152457Z",
+  "Updated": "2025-10-14T10:12:53.0859452Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

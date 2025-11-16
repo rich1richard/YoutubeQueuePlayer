@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Load More",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "wS_1nsHltkiY48XZ4L3drA",
+  "Reference": "HMUtgIha9kaHxUF5PY2GQQ/wS_1nsHltkiY48XZ4L3drA",
+  "ParentRef": "HMUtgIha9kaHxUF5PY2GQQ/BWZ2d4Dd4USm8D_5NrgMJA",
+  "Created": "2025-10-14T07:52:53.4551957Z",
+  "Updated": "2025-10-14T07:52:53.4551957Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

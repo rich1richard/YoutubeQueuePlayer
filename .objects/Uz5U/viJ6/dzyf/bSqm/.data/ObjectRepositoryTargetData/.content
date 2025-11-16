@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="25SAnsDL2UaEMw7a8Lr08A" Reference="HMUtgIha9kaHxUF5PY2GQQ/bSqm5NqPPEOrLWfcjCfJzw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="discogs.com/fr/master/11001-Muse-Showbiz" CVScreenId="5e9a981d-e1bc-4e30-9d9c-b19e80061f1b" CvType="AnyWordGroup" DesignTimeRectangle="214, 297, 673, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="51a1e4fb-aaef-4fb0-ae7d-3c96eda389de" ScopeSelectorArgument="&lt;html app='msedge.exe' title='* | Discogs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="40, 297, 847, 182" FuzzySelectorArgument="&lt;webctrl class='body_utiDG' parentid='page' tag='DIV' type='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cbfcda2d-f432-455c-9750-f3991d4e7dec" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b3218c18ae31a46b20d1d38bb19142ef.png" xmlns="">0zV-uMpPiRkWFDHXXV_vhxw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

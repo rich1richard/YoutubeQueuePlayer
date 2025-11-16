@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JLz1YGG7qUu0dF1QM1YKRg" Reference="HMUtgIha9kaHxUF5PY2GQQ/4IV70W-nrUygE6PKEsR4ww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chosic.com/playlist-generator" CVScreenId="78bc962f-4910-49d9-8dcd-1027fd331fdb" DesignTimeRectangle="364, 433, 594, 57" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='hh1' tag='SPAN' /&gt;" Guid="5c8c9dfe-9bca-439e-84a0-ced0a9cc47da" ScopeSelectorArgument="&lt;html app='msedge.exe' title='* - Chosic' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2473abe18d9a6c9da1ff6d341e5820cb.png" xmlns="">0DYor_fub2EqIQE2ueGz50Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

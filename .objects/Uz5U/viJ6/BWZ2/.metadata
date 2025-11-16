@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Chosic",
+  "Type": "Screen",
+  "Id": "BWZ2d4Dd4USm8D_5NrgMJA",
+  "Reference": "HMUtgIha9kaHxUF5PY2GQQ/BWZ2d4Dd4USm8D_5NrgMJA",
+  "ParentRef": "HMUtgIha9kaHxUF5PY2GQQ/viJ6TEyATUSeGKBw5XYs5w",
+  "Created": "2025-10-14T07:24:55.9756546Z",
+  "Updated": "2025-10-14T14:07:33.21715Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
