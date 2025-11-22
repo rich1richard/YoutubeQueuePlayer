@@ -57,4 +57,4 @@ To add new playlist sources:
 * Add the call to that sequence in the corresponding `Case` in the activity `Build a playlist depending on the choice` of `Main.xaml`
 * Pass the variable named `Playlist` to the previous out argument
 
-  ⚠️ Hangle exception correctly to prevent unpredictable behaviors/crashes, and log important steps and situations correctly.
+⚠️ Hangle exception correctly to prevent unpredictable behaviors/crashes, and log important steps and situations correctly.
