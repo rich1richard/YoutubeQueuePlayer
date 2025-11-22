@@ -122,7 +122,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AddToQueue" sap:VirtualizedContainerService.HintSize="1279,2779" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AddToQueue" sap:VirtualizedContainerService.HintSize="1184,2779" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Default="0" Name="BestFound" />
       <Variable x:TypeArguments="ui:UiElement" Name="BestFoundElement">
@@ -379,14 +379,14 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:InvokeCode ContinueOnError="{x:Null}" Code="var target = in_Element.FindFirst(&#xA;&#x9;FindScope.FIND_DESCENDANTS,&#xA;&#x9;new Selector(&quot;&lt;webctrl tag='button' id='button' class='*yt-icon-button*' /&gt;&quot;),&#xA;&#x9;null&#xA;).InjectAndRunJS(&quot;&quot;&quot;&#xA;async function(element, input) {&#xA;&#x9;await new Promise(resolve =&gt; {&#xA;&#x9;  element.scrollIntoView({ behavior: 'smooth', block: 'center' });&#xA;&#x9;&#xA;&#x9;  // Poll for element visibility or position stability&#xA;&#x9;  const check = setInterval(() =&gt; {&#xA;&#x9;    const rect = element.getBoundingClientRect();&#xA;&#x9;    const fullyVisible = rect.top &gt;= 0 &amp;&amp; rect.bottom &lt;= window.innerHeight;&#xA;&#x9;    if (fullyVisible) {&#xA;&#x9;      clearInterval(check);&#xA;&#x9;      element.click();&#xA;&#x9;&#x9;&#x9;resolve();&#xA;&#x9;    }&#xA;&#x9;  }, 100);&#xA;&#x9;});&#xA;}&#xA;&quot;&quot;&quot;, null);" DisplayName="Open the menu" sap:VirtualizedContainerService.HintSize="416,197" sap2010:WorkflowViewState.IdRef="InvokeCode_1" Language="CSharp">
+                      <ui:InvokeCode ContinueOnError="{x:Null}" Code="var target = in_Element.FindFirst(&#xD;&#xA;    FindScope.FIND_DESCENDANTS,&#xD;&#xA;    new Selector(&quot;&lt;webctrl aria-label='Action menu' tag='BUTTON' /&gt;&quot;),&#xD;&#xA;    null&#xD;&#xA;);&#xD;&#xA;&#x9;&#xD;&#xA;target.InjectAndRunJS(&quot;&quot;&quot;&#xD;&#xA;async function(element, input) {&#xD;&#xA;    // 1. Instantly scroll the element into view, no animation&#xD;&#xA;    element.scrollIntoView({ block: 'center' });&#xD;&#xA;&#xD;&#xA;    // 2. Wait for a short, fixed period for the browser to settle&#xD;&#xA;    //    This is more reliable than a polling loop in a background tab.&#xD;&#xA;    await new Promise(resolve =&gt; setTimeout(resolve, 500));&#xD;&#xA;&#xD;&#xA;    return &quot;Clicked successfully&quot;;&#xD;&#xA;}&#xD;&#xA;&quot;&quot;&quot;, null);&#xD;&#xA;&#xD;&#xA;System.Threading.Thread.Sleep(500);&#xD;&#xA;&#xD;&#xA;target.Click(ClickType.CLICK_SINGLE, MouseButton.BTN_LEFT, InputMethod.API);&#xD;&#xA;" DisplayName="Open the menu" sap:VirtualizedContainerService.HintSize="416,197" sap2010:WorkflowViewState.IdRef="InvokeCode_1" Language="CSharp">
                         <ui:InvokeCode.Arguments>
                           <InArgument x:TypeArguments="ui:UiElement" x:Key="in_Element">
                             <CSharpValue x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">BestFoundElement</CSharpValue>
                           </InArgument>
                         </ui:InvokeCode.Arguments>
                       </ui:InvokeCode>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Add the song to queue" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="165bca27-5de4-4d2d-85a3-5fa8bd521853" Version="V5">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="0.8" DisplayName="Add the song to queue" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="165bca27-5de4-4d2d-85a3-5fa8bd521853" Version="V5">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="youtube.com/results" CVScreenId="59d5a30d-fa38-466a-a749-ba66ade3c235" ContentHash="SHQqPvOrq0qcbMg7E0EXKQ" DesignTimeRectangle="1666, 276, 237, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='option' tag='TP-YT-PAPER-ITEM' /&gt;" Guid="740c57c5-ef38-4483-979f-cb62c529fa9f" InformativeScreenshot="ff54af7bf4e5d8ed310cbde8db208c77.png" Reference="HMUtgIha9kaHxUF5PY2GQQ/mMFui9Wkbkm2G4jjEqisyQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='*YouTube' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
