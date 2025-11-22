@@ -127,7 +127,7 @@
       <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1279,3760" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1091,3760" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Choice" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="FirstPlayed" />
@@ -455,9 +455,9 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </uix:NTypeInto>
-                          <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Wait for the search to finish" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1" MaxIterations="5">
+                          <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Wait for the search to finish" sap:VirtualizedContainerService.HintSize="488,699" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1" MaxIterations="5">
                             <ui:InterruptibleDoWhile.Body>
-                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,422" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,600" sap2010:WorkflowViewState.IdRef="Sequence_14">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:String" Name="PageTitle" />
                                 </Sequence.Variables>
@@ -466,23 +466,39 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="title" DisplayName="Get the title of the page" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,196" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" ScopeIdentifier="155e6f8c-c6f2-4b35-bb11-9fbead9cc8e0" Timeout="5" Version="V5">
-                                  <uix:NGetAttributeGeneric.Result>
-                                    <OutArgument x:TypeArguments="x:String">
-                                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">PageTitle</CSharpReference>
-                                    </OutArgument>
-                                  </uix:NGetAttributeGeneric.Result>
-                                  <uix:NGetAttributeGeneric.Target>
-                                    <uix:TargetAnchorable ContentHash="o7UjSuY-j02mAsdMWiPODw" DesignTimeRectangle="44, 8, 256, 35" ElementType="TabPage" Guid="ab57b7cf-f795-4513-916f-59ae3b9985e6" InformativeScreenshot="36f5fee1bbbb5e9b3174443b8d69ece9.png" Reference="HMUtgIha9kaHxUF5PY2GQQ/rZU3jJUmwkSDEogMuaUOPA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='* - YouTube*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-                                      <uix:TargetAnchorable.FullSelectorArgument>
-                                        <InArgument x:TypeArguments="x:String">
-                                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">string.Format("&lt;ctrl name='{0} - YouTube*' role='pane' /&gt;&lt;ctrl name='{0} - YouTube*' role='page tab' /&gt;", Song)</CSharpValue>
-                                        </InArgument>
-                                      </uix:TargetAnchorable.FullSelectorArgument>
-                                    </uix:TargetAnchorable>
-                                  </uix:NGetAttributeGeneric.Target>
-                                </uix:NGetAttributeGeneric>
-                                <Assign DisplayName="Mark if the song is searched" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_5">
+                                <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Try getting the title of the page" sap:VirtualizedContainerService.HintSize="452,342" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3">
+                                  <ui:RetryScope.ActivityBody>
+                                    <ActivityAction>
+                                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,247" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="title" DisplayName="Get the title of the page" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,187" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" ScopeIdentifier="155e6f8c-c6f2-4b35-bb11-9fbead9cc8e0" Timeout="5" Version="V5">
+                                          <uix:NGetAttributeGeneric.Result>
+                                            <OutArgument x:TypeArguments="x:String">
+                                              <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">PageTitle</CSharpReference>
+                                            </OutArgument>
+                                          </uix:NGetAttributeGeneric.Result>
+                                          <uix:NGetAttributeGeneric.Target>
+                                            <uix:TargetAnchorable ContentHash="o7UjSuY-j02mAsdMWiPODw" DesignTimeRectangle="44, 8, 256, 35" ElementType="TabPage" Guid="ab57b7cf-f795-4513-916f-59ae3b9985e6" InformativeScreenshot="36f5fee1bbbb5e9b3174443b8d69ece9.png" Reference="HMUtgIha9kaHxUF5PY2GQQ/rZU3jJUmwkSDEogMuaUOPA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='* - YouTube*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                                              <uix:TargetAnchorable.FullSelectorArgument>
+                                                <InArgument x:TypeArguments="x:String">
+                                                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">string.Format("&lt;ctrl name='{0} - YouTube*' role='pane' /&gt;&lt;ctrl name='{0} - YouTube*' role='page tab' /&gt;", Song)</CSharpValue>
+                                                </InArgument>
+                                              </uix:TargetAnchorable.FullSelectorArgument>
+                                            </uix:TargetAnchorable>
+                                          </uix:NGetAttributeGeneric.Target>
+                                        </uix:NGetAttributeGeneric>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </ui:RetryScope.ActivityBody>
+                                  <ui:RetryScope.Condition>
+                                    <ActivityFunc x:TypeArguments="x:Boolean" />
+                                  </ui:RetryScope.Condition>
+                                </ui:RetryScope>
+                                <Assign DisplayName="Mark if the song is searched" sap:VirtualizedContainerService.HintSize="452,166" sap2010:WorkflowViewState.IdRef="Assign_5">
                                   <Assign.To>
                                     <OutArgument x:TypeArguments="x:Boolean">
                                       <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">SongSearched</CSharpReference>
