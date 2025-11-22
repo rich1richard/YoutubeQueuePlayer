@@ -21,7 +21,6 @@ Haska - Madan
 Naughty Boy, Sam Smith - La la la (Lumont Afro House Remix)
 Naomi Sharon - Another Life (Marten Lou Remix)
 Andor Gabriel, Jerome Sydor - Temperatura [Latin Afro House]
-TitoM, Yuppe and Burna Boy - Tshwala Bam Remix [Ft. S.N.E]
 Francis Mercier, Nitefreak, Idd Aziz - Kamili (Lyrics)
 Nitefreak & Emmanuel Jal - Gorah (Official Full Stream)
 MoBlack - Yamore (Corona Sunsets Session)
